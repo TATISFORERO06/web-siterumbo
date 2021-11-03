@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+header{
+    width: 100%;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+    height: 100vh;
+}
+header nav{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+header nav ul li a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 12px 30px;
+}
+header nav ul li a:hover {
+    border: 2px solid white;
+}
+header #hero{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 180px;
+}
+header #hero h1{
+    color: yellow;
+    font-size: 60px;
+    margin: 0;
+}
+header #hero h2{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+header #hero a{
+    background: yellow;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 8px;
+    color: grey;
+    transition: .5s;
+}
+header #hero a:hover{
+    padding: 12px 60px;
+    border-radius: 0;
+    background: white;
+}
+/* SECCION PLANES */
+#planes{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background:#ffffff;
+}
+#planes .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#planes h2{
+    font-size: 50px;
+}
+#planes p{
+    font-size: 20px;
+}
+#planes .fila{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+#planes .fila .card{   
+    position: relative;
+}
+#planes .fila .card h3 {
+position: absolute;
+top: 100px;
+font-size: 25px;
+color:yellow;
+left: 0px;
+right: 0px;
+bottom: 100px;
+}
+/* SECCION DESTINOS */
+#destinos{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+  background-image: url(../img/bg-destinos.png);
+  background-size: cover;
+
+}
+#destinos .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#destinos h2{
+    font-size: 50px;
+    color: yellow;
+}
+#destinos .container .fila{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+#destinos h3 {
+    color: #ffffff;
+    font-size: 30px;
+}
+/*SECCION CONTACTOS */
+#contactos{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: yellow;
+}
+#contactos .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#contactos h2{
+    font-size: 50px;
+}
+#contactos p{
+    font-size: 20px;
+}
+#contactos input{
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 20px;
+}
+#contactos select{
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 20px;
+    width: 275px;
+}
+#contactos button{
+    font-size: 20px;
+    padding: 10px 30px;
+    background: rgb(107, 107, 16);
+    color: #ffffff;
+    border-radius: 4px ;
+}
+footer{
+    background: #000;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
